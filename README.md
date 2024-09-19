@@ -1,4 +1,4 @@
-# todoapp
+# Todoapp
 
 This app is made to help users stay organized and well prepared for any upcoming events, such as travel, study, and meetings.
 
