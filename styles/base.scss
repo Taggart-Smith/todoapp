@@ -1,0 +1,57 @@
+@use "var";
+
+body{
+    background-color: var.$dark-background;
+}
+
+nav {
+    background-color: var.$background;
+    .container-fluid{
+        button.navbar-toggler{
+            border: 1px solid var.$textcolor;
+            .navbar-icon{
+                color: var.$textcolor;
+                font-size: xx-large;
+            }
+        }
+        button.navbar-toggler:hover{
+            border: 1px solid var.$babyblue;
+            .navbar-icon{
+                color: var.$babyblue;
+            }
+        }
+
+        a{
+            color: var.$textcolor;
+            img{
+                height: 75px;
+                width: 100%;
+                border: 1px solid var.$babyblue;
+            }
+        }
+        a.nav-link:hover{
+            background-color: var.$babyblue;
+            color: var.$textcolor; 
+        }
+
+        form{
+            button{
+                color: var.$textcolor;
+                border: 1px solid var.$babyblue;
+            }
+            button:hover{
+                background-color: var.$babyblue;
+                color: var.$textcolor; 
+            }
+        }
+    }
+}
+
+.dropdown-menu{
+    background-color: var.$background;
+
+    :hover{
+        background-color: var.$babyblue;
+        color: var.$textcolor; 
+    }
+}

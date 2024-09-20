@@ -1,0 +1,48 @@
+body {
+  background-color: #0d0d0d;
+}
+
+nav {
+  background-color: #1b1b1b;
+}
+nav .container-fluid button.navbar-toggler {
+  border: 1px solid #F2f2f2;
+}
+nav .container-fluid button.navbar-toggler .navbar-icon {
+  color: #F2f2f2;
+  font-size: xx-large;
+}
+nav .container-fluid button.navbar-toggler:hover {
+  border: 1px solid #008DD5;
+}
+nav .container-fluid button.navbar-toggler:hover .navbar-icon {
+  color: #008DD5;
+}
+nav .container-fluid a {
+  color: #F2f2f2;
+}
+nav .container-fluid a img {
+  height: 75px;
+  width: 100%;
+  border: 1px solid #008DD5;
+}
+nav .container-fluid a.nav-link:hover {
+  background-color: #008DD5;
+  color: #F2f2f2;
+}
+nav .container-fluid form button {
+  color: #F2f2f2;
+  border: 1px solid #008DD5;
+}
+nav .container-fluid form button:hover {
+  background-color: #008DD5;
+  color: #F2f2f2;
+}
+
+.dropdown-menu {
+  background-color: #1b1b1b;
+}
+.dropdown-menu :hover {
+  background-color: #008DD5;
+  color: #F2f2f2;
+}/*# sourceMappingURL=base.css.map */
