@@ -1,11 +1,24 @@
 @use "var";
+@use "signup";
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 
 body{
     background-color: var.$dark-background;
+    font-family: "Poppins", sans-serif;
+    color: var.$textcolor;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
-    background-color: var.$background;
+    background-color: var.$dark-background;
+    border-bottom: 1px solid gray;
     .container-fluid{
         button.navbar-toggler{
             border: 1px solid var.$textcolor;
