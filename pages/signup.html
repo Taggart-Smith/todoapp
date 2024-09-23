@@ -14,12 +14,12 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ea15c1bc13.js" crossorigin="anonymous"></script>
-
+    <script defer src="../javascript/signup.js"></script>
 </head>
 <body class="signin">
     <div class="wrapper">
         <h1>Sign up</h1>
-        <form action="">    
+        <form action="" id="form">    
             <div class="form-input">
                 <label for="firstname-input"><i class="fa-solid fa-user"></i></label>
                 <input required type="text" name="firstname" id="firstname-input" placeholder="Firstname">
@@ -36,7 +36,7 @@
                 <label for="repeat-password-input"><i class="fa-solid fa-lock"></i></label>
                 <input required type="password" name="repeat-password" id="repeat-password-input" placeholder="Repeat Password">
             </div>
-            <button type="submit" class="btn">Sign Up</button>
+            <button type="submit" onclick="submitData()" class="btn">Sign Up</button>
         </form>
         <p>Already have an Account? <a href="login.html" class="nav-link">Login</a></p>
     </div>

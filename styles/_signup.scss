@@ -33,6 +33,18 @@
             margin: 20px 0px 50px 0;
             gap: 10px;
 
+            .form-input{
+                label{
+                    padding: 10px 15px;
+                    margin-right: 5px;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    backdrop-filter: blur(10px);
+                }
+                input{
+                    padding: 8px 0px;
+                }
+            }
+
             button{
                 color: var.$textcolor;
                 background-color: rgba(0, 0, 0, 0.5);
@@ -75,6 +87,15 @@
             align-items: center;
             margin: 20px 0px 50px 0;
             gap: 10px;
+
+            .form-input{
+                label{
+                    padding: 10px 15px;
+                    margin-right: 5px;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    backdrop-filter: blur(10px);
+                }
+            }
 
             button{
                 color: var.$textcolor;
