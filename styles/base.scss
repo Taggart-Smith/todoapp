@@ -9,16 +9,32 @@ html, body {
 
 
 body{
-    background-color: var.$dark-background;
+    background-image: url('/images-icons/signup.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Poppins", sans-serif;
     color: var.$textcolor;
     margin: 0;
     padding: 0;
+    border: 1px solid rebeccapurple;
+
+    .body-container{
+        height: calc(100vh - 100px);
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+        // margin: 50px 100px;
+        border-radius: 20px;
+
+    }
 }
 
 nav {
-    background-color: var.$dark-background;
-    border-bottom: 1px solid gray;
+    // background-color: var.$dark-background;
+    border-radius: 20px 20px 0 0;
+    border-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
     .container-fluid{
         button.navbar-toggler{
             border: 1px solid var.$textcolor;
